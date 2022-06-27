@@ -1,12 +1,12 @@
 #include<stdio.h>
+#include<stdlib.h>
 int main()
 {
-    int pro,i,flag=0;
-    scanf("%d",&pro);
-    flag=0;
-    for(i=1;i<=pro;i++)
+    int n,i,flag=0;
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
     {
-        if(i*(i+1)==pro)
+        if(i*(i+1)==n)
         {
             flag=1;
             break;
