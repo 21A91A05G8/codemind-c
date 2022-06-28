@@ -18,7 +18,7 @@ int main()
             {
                 s1=s1+arr[i][j];
             }
-            if((i+1)%2)
+            if((i+1)%2==1)
             {
                 s2=s2+arr[i][j];
             }
