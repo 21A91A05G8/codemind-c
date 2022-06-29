@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    int arr[100],i,n,sum=0,c=0;
+    int i,n,arr[100],sum=0,c=0;
     float avg;
     scanf("%d",&n);
     for(i=0;i<n;i++)
@@ -17,7 +17,7 @@ int main()
     {
         if(avg==arr[i])
         {
-            c=c+1;
+            c++;
         }
     }
     if(c!=0)
