@@ -1,22 +1,22 @@
 #include<stdio.h>
+#include<math.h>
 int main()
 {
-    int  i,n,count=0;
+    int n,i,c=0;
     scanf("%d",&n);
     for(i=1;i<=n;i++)
     {
         if(n%i==0)
         {
-            count=count+1;
+            c++;
         }
     }
-    if(count==2)
+    if(c==2)
     {
         printf("prime");
     }
     else
     {
-       printf( "not a prime");
+        printf("not a prime");
     }
 }
-    
